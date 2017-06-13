@@ -63,10 +63,11 @@ public class JettyStarter {
     public static void main(String[] args) {
         BasicConfigurator.configure();
 
-        new JettyStarter().deployWebApplications();
+        String path = args[0];
+        new JettyStarter().deployWebApplications(path);
     }
 
-    public List<String> deployWebApplications() {
+    public List<String> deployWebApplications(String path) {
 
         logger.info("Starting the web applications...");
 
@@ -81,7 +82,7 @@ public class JettyStarter {
 
         HandlerList handlerList = new HandlerList();
 
-        addWarsToHandlerList(handlerList, defaultVirtualHost);
+        addWarsToHandlerList(handlerList, defaultVirtualHost, path);
         server.setHandler(handlerList);
 
         return startServer(server, "http");
@@ -117,7 +118,7 @@ public class JettyStarter {
     private List<String> startServer(Server server, String httpProtocol) {
         try {
             if (server.getHandler() == null) {
-                logger.info("SCHEDULER_HOME/dist/war folder is empty, nothing is deployed");
+                logger.info("$HOME/dist/war folder is empty, nothing is deployed");
             } else {
                 server.start();
                 if (server.isStarted()) {
@@ -168,8 +169,8 @@ public class JettyStarter {
         return applicationsUrls;
     }
 
-    private void addWarsToHandlerList(HandlerList handlerList, String[] virtualHost) {
-        File warFolder = new File("/Users/yinanliu/git/" + FOLDER_TO_DEPLOY);
+    private void addWarsToHandlerList(HandlerList handlerList, String[] virtualHost, String path) {
+        File warFolder = new File(path + FOLDER_TO_DEPLOY);
         File[] warFolderContent = warFolder.listFiles(new FilenameFilter() {
             @Override
             public boolean accept(File dir, String name) {
