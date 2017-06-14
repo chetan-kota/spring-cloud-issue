@@ -2,7 +2,7 @@
 
 1. configuration-client is a spring cloud config client module
 2. configuration-service is a spring cloud config server module
-3. server is a module contain jettyStarter, which is used to deploy the war files
+3. server is a module contains JettyStarter.java only, which is used to start jetty server and deploy the war files
 4. folder "dist" contains the dependencies libs and war files
 
 to start the jetty server, run the command line from the current folder
