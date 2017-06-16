@@ -1,4 +1,4 @@
-rootProject.name = 'gs-centralized-configuration'
+rootProject.name = 'spring-cloud-issue'
 
 include 'configuration-client'
 include 'configuration-service'
