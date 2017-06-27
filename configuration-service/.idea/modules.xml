@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/671055737/configuration-client.iml" filepath="$PROJECT_DIR$/.idea/modules/671055737/configuration-client.iml" group="configuration-client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/671055737/configuration-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/671055737/configuration-client_main.iml" group="configuration-client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/671055737/configuration-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/671055737/configuration-client_test.iml" group="configuration-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1061839053/configuration-client.iml" filepath="$PROJECT_DIR$/.idea/modules/1061839053/configuration-client.iml" group="configuration-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1061839053/configuration-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1061839053/configuration-client_main.iml" group="configuration-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1061839053/configuration-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1061839053/configuration-client_test.iml" group="configuration-client" />
       <module fileurl="file://$PROJECT_DIR$/configuration-service.iml" filepath="$PROJECT_DIR$/configuration-service.iml" group="configuration-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-service_main.iml" group="configuration-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-service_test.iml" group="configuration-service" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-896729416/gs-centralized-configuration.iml" filepath="$PROJECT_DIR$/.idea/modules/-896729416/gs-centralized-configuration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/345543290/server.iml" filepath="$PROJECT_DIR$/.idea/modules/345543290/server.iml" group="server" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/345543290/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/345543290/server_main.iml" group="server" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/345543290/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/345543290/server_test.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1954834738/server.iml" filepath="$PROJECT_DIR$/.idea/modules/-1954834738/server.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1954834738/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1954834738/server_main.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1954834738/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1954834738/server_test.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1188655332/spring-cloud-issue.iml" filepath="$PROJECT_DIR$/.idea/modules/1188655332/spring-cloud-issue.iml" />
     </modules>
   </component>
 </project>

@@ -6,10 +6,10 @@
     <option name="formatter" value="ECLIPSE" />
     <option name="id" value="1395051340981" />
     <option name="importOrder" value="" />
-    <option name="importOrderConfigFilePath" value="$PROJECT_DIR$/../../../coding-rules/src/main/resources/proactive.importorder" />
+    <option name="importOrderConfigFilePath" value="$PROJECT_DIR$/../../coding-rules/src/main/resources/proactive.importorder" />
     <option name="importOrderFromFile" value="true" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../../../coding-rules/src/main/resources/ProactiveCodeFormatter.xml" />
+    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../../coding-rules/src/main/resources/ProactiveCodeFormatter.xml" />
     <option name="selectedJavaProfile" value="ProActive Rules" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="1.8" project-jdk-type="JavaSDK">
